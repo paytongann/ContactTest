@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactInfo">
+
+    <TextView
+        android:id="@+id/tv_contact_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_contact_info_title"
+        android:text="Id: "
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id"
+        android:text="Name: "
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:text="Email: "
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email"
+        android:text="Address: "
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_address"
+        android:text="Gender: "
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_gender"
+        android:text="Phone: "
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/tv_contact_info_title"/>
+
+</RelativeLayout>
